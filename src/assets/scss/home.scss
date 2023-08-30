@@ -1,0 +1,94 @@
+//NAVBARS
+.navbars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav-link {
+        margin: 20px;
+        font-weight: bold;
+        color: #4D4C4C;
+    }
+
+    .nav-link:hover {
+        // background-color: #FE9000;
+        // border-radius: 30px;
+        // padding: 10px;
+        color: #FE9000;
+    }
+}
+
+//CAROUSEL
+.model {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+    h3 {
+        color: #4D4C4C;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    p {
+        color: #4D4C4C;
+    }
+
+    h5 {
+        color: #4D4C4C;
+        margin-right: 2rem;
+    }
+
+    h5 span {
+        color: $color-primary;
+        font-size: 30px;
+        padding-right: 10px;
+    }
+
+    h5 button {
+        margin-left: 50px;
+        border-radius: 30px;
+        width: 50%;
+        height: 40px;
+    }
+
+    h5 img {
+        width: 40px;
+        height: 30px;
+        padding-right: 10px;
+        border-radius: 40px 50px 50px 50px;
+    }
+
+    .nav-link {
+        color: #4D4C4C;
+        font-size: 17px;
+        border: 2px solid $color-gray;
+        border-radius: 30px;
+        width: 80px;
+        // margin-left: 20px;
+        // margin-top: 40px;
+    }
+
+    .nav-link:hover {
+        background-color: $color-gray;
+    }
+
+    .phone {
+        float: right;
+        margin-right: 25%;
+        width: 220px;
+    }
+
+    .stars {
+        width: 100px;
+        padding-bottom: 20px;
+    }
+
+    .text {
+        flex-direction: column;
+        justify-content: center;
+        float: left;
+    }
+    
+}

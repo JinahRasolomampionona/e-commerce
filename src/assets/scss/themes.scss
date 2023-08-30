@@ -1,0 +1,67 @@
+/* Colors */
+$color-primary: #FE9000;
+$color-primary-light: rgba(32, 201, 151, 0.1);
+$color-gray: #0A4D68;
+$color-danger: #dc3545;
+$color-danger-light: rgba(220, 53, 69, 0.1);
+$color-warning: #ffc107;
+$color-dark: #212529;
+
+$theme-colors: (
+        "primary": $color-primary,
+        "secondary": $color-gray,
+        "danger": $color-danger,
+        "warning": $color-warning,
+        "dark": $color-dark,
+);
+
+/* Fonts */
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Thin"), url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Light"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Medium"), url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"), url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Black"), url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Bootstrap overrides */
+$table-hover-bg: $color-primary-light;
+$btn-focus-box-shadow: 0 0 0 0.25rem $color-primary-light;
+$input-focus-border-color: $color-primary;
+$input-focus-box-shadow: 0 0 0 0.25rem $color-primary-light;
+$form-check-input-checked-bg-color: $color-primary;
+$form-check-input-focus-box-shadow: 0 0 0 0.25rem $color-primary-light;
+$form-check-input-border-radius: 0;
+
